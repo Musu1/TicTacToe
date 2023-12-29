@@ -126,6 +126,6 @@ You can play the game within Google Search by just searching for “tictactoe”
 
 ## Class diagram
 
-![TicTacToeClassDiagram](https://www.tuitec.com/wp-content/uploads/2016/08/morpion-640x411.jpg)
+![TicTacToeClassDiagram](https://github.com/Musu1/TicTacToe/blob/main/TicTacToe/TicTacToe.png)
 
 ## Game Play
