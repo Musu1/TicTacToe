@@ -72,8 +72,60 @@ You can play the game within Google Search by just searching for “tictactoe”
   * Bot Playing strategy
   * Winning strategy
 
+## Entities and Attributes
+
+* Game
+  * Board
+  * List<Player>
+  * Player currentPlayer
+  * GameStatus
+  * Player winner
+  * List<Move>
+  * List<Board>
+  * WinningStrategy
+  
+* Board
+  * size
+  * List<List<Cell>>
+
+* Cell
+  * row
+  * col
+  * CellState
+  * Player
+
+* GameStatus
+  * IN_PROGRESS
+  * DRAW
+  * WINNER
+
+* CellState
+  * EMPTY
+  * FILLED
+
+* Player
+  * name
+  * symbol
+  * id
+  * PlayerType
+
+* PlayerType
+  * HUMAN
+  * BOT
+
+* Move
+  * Cell
+  * Player
+
+* Bot
+  * BotDifficultyLevel
+
+* BotDifficultyLevel
+  * MEDIUM
+  * INTERMEDIATE
 
 ## Class diagram
 
+![TicTacToeClassDiagram](https://www.tuitec.com/wp-content/uploads/2016/08/morpion-640x411.jpg)
 
 ## Game Play
