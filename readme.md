@@ -126,6 +126,6 @@ You can play the game within Google Search by just searching for “tictactoe”
 
 ## Class diagram
 
-![TicTacToeClassDiagram](https://github.com/Musu1/TicTacToe/blob/main/TicTacToe/TicTacToe.png)
+![TicTacToeClassDiagram](https://github.com/Musu1/TicTacToe/blob/main/TicTacToe.png)
 
 ## Game Play
