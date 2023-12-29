@@ -129,3 +129,52 @@ You can play the game within Google Search by just searching for “tictactoe”
 ![TicTacToeClassDiagram](https://github.com/Musu1/TicTacToe/blob/main/TicTacToe.png)
 
 ## Game Play
+
+* Enter the dimension of the game  - `3`
+* Will there be any bot in game - `y` 
+* What is the name of the player, number: 0 - `muskan`
+* What is the symbol of the player, number: 0 - `*`
+* What is the name of the Bot - `Bot`
+* What is the symbol of the bot - `#`
+* Current board status:
+  * | || || | 
+  * | || || | 
+  * | || || |
+
+* Current board status:
+  * |#|| || | 
+  * | || || | 
+  * | || || | 
+
+* Enter the row of your move: `2`
+* Enter the col for your move - `2`
+* Do you want to undo your move? Y/N - `n`
+* Current board status:
+  * |#|| || | 
+  * | || || | 
+  * | || ||*|
+* Current board status:
+  * |#||#|| | 
+  * | || || | 
+  * | || ||*|
+      
+* Enter the row of your move: `0`
+* Enter the col for your move `2`
+* Do you want to undo your move? Y/N - `n`
+* Current board status:
+  * |#||#||*| 
+  * | || || | 
+  * | || ||*|
+* Current board status:
+  * |#||#||*| 
+  * |#|| || | 
+  * | || ||*|
+* Enter the row of your move:`2`
+* Enter the col for your move - `0`
+* Do you want to undo your move? Y/N -`n`
+* The winner is :muskan 
+* Final board states:
+  * |#||#||*| 
+  * |#|| || | 
+  * |*|| ||*| 
+* DO YOU WANT A REPLAY Y/N - `n`

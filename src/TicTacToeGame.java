@@ -76,6 +76,8 @@ public class TicTacToeGame {
                 String isUndoRequired = sc.next();
                 if (isUndoRequired.equalsIgnoreCase("Y")) {
                     gameController.undoMove(game, lastMove);
+                    playerIndex--;
+                    continue;
                 }
             }
 
@@ -89,8 +91,8 @@ public class TicTacToeGame {
         System.out.println("Final board states: ");
         gameController.printBoard(game);
         System.out.println("DO YOU WANT A REPLAY Y/N");
-        String isUndoRequired = sc.next();
-        if(isUndoRequired.equalsIgnoreCase("Y")){
+        String isReplayRequired = sc.next();
+        if(isReplayRequired.equalsIgnoreCase("Y")){
             gameController.replayGame(game);
         }
     }

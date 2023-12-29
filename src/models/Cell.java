@@ -12,6 +12,13 @@ public class Cell {
         this.cellState = CellState.EMPTY;
     }
 
+    public Cell(Cell cell) {
+        this.row = cell.row;
+        this.col = cell.col;
+        this.cellState = cell.cellState;
+        this.player = cell.player;
+    }
+
     public void display(){
         if(player == null ){
             System.out.print("| |");

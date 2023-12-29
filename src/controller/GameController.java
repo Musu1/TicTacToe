@@ -73,9 +73,21 @@ public class GameController {
     }
 
     public void undoMove(Game game, Move lastMove) {
+        int totalMoves = game.getBoardStates().size();
+        game.getBoardStates().remove(totalMoves-1);
+        if(totalMoves == 1){
+            game.setCurrentBoard(new Board(game.getPlayers().size()+1));
+        }else {
+            game.setCurrentBoard(new Board(game.getBoardStates().get(totalMoves - 2)));
+        }
+        System.out.println("New board after undo == ");
+        game.getCurrentBoard().printBoard();
     }
 
 
     public void replayGame(Game game) {
+        for(Board board : game.getBoardStates()){
+            board.printBoard();
+        }
     }
 }

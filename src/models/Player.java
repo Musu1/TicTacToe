@@ -64,6 +64,7 @@ public class Player {
         board.getBoard().get(row).get(col).setCellState(CellState.FILLED);
         board.getBoard().get(row).get(col).setPlayer(this);
 
+
         return new Move(row,col,this);
     }
 
